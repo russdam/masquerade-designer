@@ -1,6 +1,14 @@
 [package]
-name = "masquerade"
+name = "masquerade-designer"
 version = "0.1.0"
 edition = "2021"
+
+[[bin]]
+name = "masquerade-designer"
+path = "src/designer.rs"
+
+[[bin]]
+name = "masquerade-renderer"
+path = "src/renderer.rs"
 
 [dependencies]
